@@ -7,3 +7,8 @@
     com/ily55421/controller/ConcurrencyWriteController.java
     com/ily55421/controller/ConcurrentHashMapController.java
     com/ily55421/controller/ThreadController.java
+二： 代码加锁：不要让“锁”事成为烦心事
+    com/ily55421/synchronize/Interesting.java
+    com/ily55421/synchronize/ItemController.java
+    com/ily55421/synchronize/SyncController.java
+
