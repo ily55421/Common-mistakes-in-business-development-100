@@ -3,7 +3,10 @@ package org.geekbang.time.commonmistakes.advancedfeatures.genericandinheritance;
 import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 
-
+/**
+ * 泛型和继承
+ * 泛型和继承应用
+ */
 public class GenericAndInheritanceApplication {
 
     public static void main(String[] args) {

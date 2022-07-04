@@ -58,6 +58,7 @@ public class CompletableFutureTest {
         order.setCouponPrice(Services.getCouponPrice(order.getCouponId()));
         Integer distance = null;
         try {
+            // Walk distance service unavailable! 步行距离服务不可用！
             distance = Services.getWalkDistance(order.getFrom(), order.getTo());
         } catch (Exception ex) {
             ex.printStackTrace();

@@ -84,6 +84,7 @@ public class CoolStreamTest {
     }
 
     private Product getProductAndCacheCool(Long id) {
+        //计算如果不存在
         return cache.computeIfAbsent(id, i -> //当Key不存在的时候提供一个Function来代表根据Key获取Value的过程
                 Product.getData().stream()
                         .filter(p -> p.getId().equals(i)) //过滤

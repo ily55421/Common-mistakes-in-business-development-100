@@ -8,6 +8,8 @@ public class InnerClassApplication {
 
         InnerClassApplication application = new InnerClassApplication();
         application.test();
+        //zhuye 打印匿名类的属性
+        //male  调用匿名内部类的方法
 
     }
 
